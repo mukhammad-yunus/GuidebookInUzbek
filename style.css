@@ -44,22 +44,24 @@ button {
 }
 button:active {
     background-color: #2e475d; /* or any other color */
- }
- button:active {
+}
+button:active {
     animation: pulse 0.9s linear;
- }
+}
  
- @keyframes pulse {
+@keyframes pulse {
     from { transform: scale(1); }
     to { transform: scale(1.4); }
- }
+}
 
- img {
+img {
     display: block;
     margin: 10px auto;
     width: 100%;
     max-width: 500px;
     height: auto;
     border: solid 1px;
- }
-  
+}
+a {
+    text-decoration: none;
+}
