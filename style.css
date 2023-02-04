@@ -1,0 +1,65 @@
+body {
+    color: #2e475d;
+    margin: 0;
+    font-size: 24px;
+    font-family: "Lexend Deca", sans-serif;
+}
+h1 {
+    background: #ff5c35;
+    width: 90%;
+    color: white;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border-radius: 0 0 30px 30px;
+    
+
+}
+p {
+    margin: 2% 5%;
+    line-height: 1.3;
+}
+li {
+    margin: 5px 5%;
+}
+h3, h4 {
+    padding: 10px 30px;
+    margin: 5% 8% 2% 8%;
+    border-radius: 20px;
+    color: white;
+    background: #2e475d;
+    box-shadow: 0 0 10px black;
+}
+button {
+    font-size: 24px;
+    background: #1e1e1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 15px 10px 50px 0;
+}
+.navigation {
+    display: flex;
+    justify-content: end;
+}
+button:active {
+    background-color: #2e475d; /* or any other color */
+ }
+ button:active {
+    animation: pulse 0.9s linear;
+ }
+ 
+ @keyframes pulse {
+    from { transform: scale(1); }
+    to { transform: scale(1.4); }
+ }
+
+ img {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: solid 1px;
+ }
+  
